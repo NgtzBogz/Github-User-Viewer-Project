@@ -68,6 +68,11 @@ function createUserCard(user) {
                 ${userBio}
                 <ul>
                     <li>
+                    <strong>Location</strong>
+                        ${user.location}
+                        
+                    </li>
+                    <li>
                         ${user.followers}
                         <strong>Followers</strong>
                     </li>

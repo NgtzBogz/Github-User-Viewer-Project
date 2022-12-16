@@ -93,3 +93,17 @@ function createUserCard(user) {
 
   main.innerHTML = cardHTML;
 }
+//2nd Feature BG Change
+function BGChange(){
+  document.body.style.backgroundImage = "url(images/1.png)";
+
+}
+function BGChange2(){
+  document.body.style.backgroundImage = "url(images/2.jpg)";
+
+}
+function BGChange3(){
+  document.body.style.backgroundImage = "url(images/3.png)";
+
+}
+

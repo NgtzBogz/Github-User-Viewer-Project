@@ -15,6 +15,8 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .user-form {
@@ -104,5 +106,20 @@ body {
 }
 
 #repos ul li {
+  display: inline;
+}
+button {
+  background-color: #4c2885;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.box{
   display: inline;
 }
